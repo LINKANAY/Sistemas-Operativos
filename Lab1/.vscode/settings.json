@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "builtin.h": "c",
+        "stdbool.h": "c"
+    }
+}

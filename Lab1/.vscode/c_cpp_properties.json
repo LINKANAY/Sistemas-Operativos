@@ -1,0 +1,30 @@
+{
+    "env": {
+        "includePath": [
+            "${workspaceFolder}/include",
+            "${workspaceFolder}/src"
+        ],
+        "myDefines": [
+            "DEBUG",
+            "MY_FEATURE=1"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/glib-2.0",
+                "/usr/include/glib-2.0/glib",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc"
+        }
+    ],
+    "version": 4
+}
