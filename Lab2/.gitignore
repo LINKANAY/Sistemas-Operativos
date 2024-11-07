@@ -1,0 +1,7 @@
+
+*.o
+*.out
+.vscode
+.devcontainer
+.gdb_history
+.gdbinit
